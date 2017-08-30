@@ -48,6 +48,7 @@ change ```PasswordAuthentication to No``` and change ```PermitRootLogin to No```
 * Update repositories: <br />
 ```sudo apt-get update ``` <br />
 ```sudo apt-get upgrade```
+```sudo unattended-upgrades```
 
 * Change ssh port to 2200: <br />
 ```sudo nano /etc/ssh/sshd_config ``` <br />
@@ -115,3 +116,10 @@ copy into sinde virtualHost brackets:
 
 * Restart the service: <br />
 ```sudo apache2ctl restart```
+
+### Resources
+* [Flask mod WSGI Apache](http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/)
+* [Unattended Upgrades](https://help.ubuntu.com/lts/serverguide/automatic-updates.html)
+* [Install Postgresql](https://help.ubuntu.com/community/PostgreSQL)
+* [AWS config](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html)
+
