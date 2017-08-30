@@ -15,6 +15,7 @@ OS: Ubuntu <br />
 Public IP: 18.221.43.122 <br />
 Public DNS: ec2-18-221-43-122.us-east-2.compute.amazonaws.com <br />
 Port: 2200 <br />
+Connect using : ssh -i [path_key] grader@18.221.43.122 -p 2200
 
 ### User Management
 
