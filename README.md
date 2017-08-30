@@ -111,7 +111,7 @@ application.secret_key = 'super_secret_key'
 
 * Configuring apache conf: <br />
 ```sudo nano /etc/apache2/sites-enabled/000-default.conf``` <br />
-copy into sinde virtualHost brackets: 
+copy inside virtualHost brackets: 
 ```WSGIScriptAlias / /var/www/itemcatalog/app.wsgi```
 
 * Restart the service: <br />
